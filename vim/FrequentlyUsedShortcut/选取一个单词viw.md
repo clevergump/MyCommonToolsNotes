@@ -14,7 +14,7 @@ https://blog.csdn.net/laogaoav/article/details/17370251
 
 Text-Object：可以指一个单词，一整句文本，抑或一对括号内的文本，甚至是html或xml标签内的文本，都可以抽象成Text-Object。与Text-Object紧密相关的两个命令就是`a`和`i`，啊？这两个命令不是append和insert吗？其实，a和i操作在Visual mode或者某些操作（比如：`d`,`y`等）后面就是另外一种效果了。例如，删除一个单词可以用`daw`或者`diw`。那么`a`与`i`又有什么区别呢？
 
-** `a`会选择一个对象（an object）包括空格在内，而`i`只会选择一个对象的内部（an inner object）不包含空格。**
+**`a`会选择一个对象（an object）包括空格在内，而`i`只会选择一个对象的内部（an inner object）不包含空格。**
 
 下面就是一些命令含义：
 
